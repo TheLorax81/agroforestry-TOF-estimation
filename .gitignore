@@ -1,4 +1,22 @@
-.Rproj.user
+# R-specific
 .Rhistory
+.Rapp.history
 .RData
+.Rproj.user/
 .Ruserdata
+*.Rproj.bak
+
+# Data files — keep internship data out of the repo
+*.csv
+*.xlsx
+*.xls
+*.rds
+*.rda
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Credentials
+.Renviron
+TOF weights and area.R
